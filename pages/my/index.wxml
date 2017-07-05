@@ -1,0 +1,12 @@
+<view class="container">
+    <view class="userinfo">
+        <image background-size="cover" class="userinfo-avatar" src="{{userInfo.avatarUrl}}"></image>
+        <text class="userinfo-nickname">
+            {{userInfo.nickName}}
+        </text>
+    </view>
+    <view class="info">
+        <text>{{source}}</text>
+    </view>
+    <map id="myMap" latitude="{{latitude}}" longitude="{{longitude}}" show-location />
+</view>
